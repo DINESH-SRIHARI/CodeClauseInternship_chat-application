@@ -1,0 +1,139 @@
+*{
+    background-color: rgb(94, 94, 93); 
+    scroll-behavior: smooth;
+}
+.heading{
+    width: 500px;
+    color: rgb(14, 14, 14);
+    border-radius: 12px;
+    margin:30px auto;
+    
+}
+.hero{
+    overflow: auto;
+    width: 350px;
+    height: 450px;
+    border-radius: 12px;
+    background-color: rgb(46, 45, 45);
+    margin:0px auto;
+}
+.top{
+    display: flex;
+    background-color: rgb(24, 20, 20);
+    height: 40px;
+    align-items: center;
+    color: bisque;
+    position: sticky;
+    top: 0;
+}
+.icon{
+    background-color: rgb(24, 20, 20);
+    margin-left: 10px;
+}
+.use{
+    background-color: rgb(24, 20, 20);
+    margin-left: 10px;
+}
+.left{
+    border-radius: 12px 12px 12px 0px;
+    padding: 3px;
+    width: 140px;
+    justify-content: left;
+    margin-left: 6px;
+    background-color: aliceblue;
+    margin-bottom: 5px;
+    
+    background-color: aliceblue;
+    box-sizing: border-box;
+    
+}
+.mid{
+    background-color: rgb(46, 45, 45);
+}
+.rightt{
+    border-radius: 12px 12px 0px 12px;
+    padding: 3px;
+    width: 140px;
+    text-align: right;
+    margin-left: 6px;
+    margin-left: 182px;
+    background-color: black;
+    margin-bottom: 5px;
+    color: aliceblue;
+    box-sizing: border-box;
+    background-color: black;
+    
+}
+.lp{
+   background-color: aliceblue ;
+}
+.rp{
+    background-color: black;
+    
+}
+.bottom{
+    display: flex;
+    position: fixed;
+    bottom: 68px;
+    align-items: center;
+    background-color:rgb(143, 138, 138) ;
+    border-radius: 0px 0px 12px 12px;
+}
+input{
+    border: none;
+    padding: 12px;
+    width: 302px;
+    background-color: rgb(143, 138, 138);
+}
+.icn2{
+    margin-left: -10px;
+    margin-right: 10px;
+    background-color:rgb(143, 138, 138) ;
+}
+button{
+    border: none;
+    background-color:rgb(143, 138, 138) ;
+}
+.name{
+    background-color: rgb(59, 48, 48);
+    border: none;
+    outline: none;
+}
+.sendr{
+    font-size: 12px;
+    font-style: italic;
+    background-color: rgb(0, 0, 0) ;
+}
+.sendl{
+    font-size: 12px;
+    font-style: italic;
+    background-color: aliceblue ;
+}
+.typ{
+    background-color: rgb(46, 45, 45);
+    text-align: center;
+    color: rgb(137, 165, 165);
+    font-style: italic;
+}
+.count{
+    position: fixed;
+    right: 50px;
+    top: 0;
+}
+.online{
+    position: fixed;
+    top: 0;
+}
+#typing{
+    background-color: rgb(46, 45, 45);
+}
+@media (min-width:430px){
+    .heading{
+        margin-left: 480px;
+    }
+}
+@media (max-width:430px){
+    .heading{
+        margin-left: 0px;
+    }
+}
